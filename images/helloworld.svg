@@ -1,0 +1,49 @@
+<svg style="width: 100vw;" viewBox="0 0 490 348" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .t, .h, .a, .kurutu {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 2s forwards;
+    }
+
+    .kurutu {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    animation: draw 2s forwards;
+    }
+
+    .t, .h, .a, .kurutu {
+    stroke: white;
+    }
+
+    .t {
+    animation-delay: 0s;
+    }
+    .h {
+    animation-delay: 1.5s;
+    }
+    .a {
+    animation-delay: 3.5s;
+    }
+    .kurutu {
+    animation-delay: 4.5s;
+    }
+
+    @keyframes draw {
+    to {
+    stroke-dashoffset: 0;
+    }
+    }
+</style>
+
+  <path class="t" d="M81 57H242.5M404 57H242.5M242.5 57C242.5 57 115 352 242.5 327"
+    stroke-width="5" />
+  <path class="h"
+    d="M297 107L241 297C259.667 247.667 297 163.8 297 223C297 282.2 307.667 297 313 297"
+    stroke-width="5" />
+  <path class="a" d="M387 219C343 281 339 291 357 295C371.4 298.2 391 275 399 263"
+    stroke-width="5" />
+  <path class="kurutu"
+    d="M417 373L1 201L469 291L67 131C226.333 167 522.2 228.2 431 185C339.8 141.8 166.333 45.6667 91 3"
+    stroke-width="5" />
+</svg>
