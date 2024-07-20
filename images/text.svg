@@ -1,0 +1,27 @@
+<svg width="50vw" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: Arial, sans-serif;
+      font-size: 36px;
+      fill: white;
+      overflow: hidden;
+      width: 100px;
+      animation: revealText 4s forwards;
+    }
+
+    @keyframes revealText {
+      from {
+        width: 0px;
+      }
+      to {
+        width: 400px;
+      }
+    }
+  </style>
+
+  <text x="10" y="60" class="text">
+  <textspan  class="text">
+    Hello World!
+    </textspan>
+  </text>
+</svg>
