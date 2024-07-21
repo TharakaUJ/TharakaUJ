@@ -1,6 +1,5 @@
-<img  position=fixed width="auto" height="200" alt="" src="images/helloworld.svg"/>
-
-<!-- <img align=right position=fixed width="auto" height="200" alt="" src="images/text.svg"/> -->
+<img position=fixed width="auto" height="200" alt="" src="images/helloworld.svg"/>
+<img position=fixed width="auto" height="200" alt="" src="images/text.svg"/>
 
 ### Hello World 👋
 

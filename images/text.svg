@@ -1,27 +1,87 @@
-<svg width="50vw" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
   <style>
     .text {
       font-family: Arial, sans-serif;
       font-size: 36px;
-      fill: white;
-      overflow: hidden;
-      width: 100px;
-      animation: revealText 4s forwards;
+      fill: #777;
+      opacity: 0;
+      animation: revealText 0.05s forwards;
+    }
+
+    .text:nth-child(1) {
+      animation-delay: 7s
+    }
+
+    .text:nth-child(2) {
+      animation-delay: 7.2s
+    }
+
+    .text:nth-child(3) {
+      animation-delay: 7.4s
+    }
+
+    .text:nth-child(4) {
+      animation-delay: 7.6s
+    }
+
+    .text:nth-child(5) {
+      animation-delay: 7.8s
+    }
+
+    .text:nth-child(6) {
+      animation-delay: 8s
+    }
+
+    .text:nth-child(7) {
+      animation-delay: 8.2s
+    }
+
+    .text:nth-child(8) {
+      animation-delay: 8.4s
+    }
+
+    .text:nth-child(9) {
+      animation-delay: 8.6s
+    }
+
+    .text:nth-child(10) {
+      animation-delay: 8.8s
     }
 
     @keyframes revealText {
       from {
-        width: 0px;
+        opacity: 0;
       }
       to {
-        width: 400px;
+        opacity: 1;
       }
     }
   </style>
-
-  <text x="10" y="60" class="text">
-  <textspan  class="text">
-    Hello World!
-    </textspan>
+<text x="100" y="60" class="text">
+    T
+  </text>
+  <text x="100" y="60" class="text">
+    Th
+  </text>
+  <text x="100" y="60" class="text">
+    Tha
+  </text>
+  <text x="100" y="60" class="text">
+    Thar
+  </text>
+  <text x="100" y="60" class="text">
+    Thara
+  </text>
+  <text x="100" y="60" class="text">
+    Tharak
+  </text>
+  <text x="100" y="60" class="text">
+    Tharaka
+  </text>
+  <text x="100" y="60" class="text">
+    TharakaU
+  </text>
+  <text x="100" y="60" class="text">
+    TharakaUJ
   </text>
 </svg>

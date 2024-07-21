@@ -13,7 +13,7 @@
     }
 
     .t, .h, .a, .kurutu {
-    stroke: white;
+    stroke: #777;
     }
 
     .t {
